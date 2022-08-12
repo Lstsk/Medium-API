@@ -1,0 +1,31 @@
+{
+  "name": "medium-api",
+  "version": "1.0.0",
+  "description": "An API that would scrape data from Medium",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lstsk/Medium-API.git"
+  },
+  "author": "Lstsk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lstsk/Medium-API/issues"
+  },
+  "homepage": "https://github.com/Lstsk/Medium-API#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "node-fetch": "^2.6.7",
+    "nodemon": "^2.0.19"
+  },
+  "exports": {
+    "require": "./index.js",
+    "import": "./index.mjs"
+  }
+}
