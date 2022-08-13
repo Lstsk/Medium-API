@@ -4,6 +4,8 @@ app = express();
 
 require("dotenv").config();
 
+app.use(express.json());
+
 app.get("/", (req, res) => {
   res.send("hello");
 });
