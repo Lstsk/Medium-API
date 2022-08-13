@@ -40,6 +40,8 @@ npm run dev
 
 #### Response 
 ```bash
+/api/posts/towards-data-science
+
 {
     "description": "Your home for data science. A Medium publication sharing concepts, ideas and codes.",
     "creatorId": "7e12c71dfa81",
@@ -202,11 +204,6 @@ npm run dev
 }
 ```
 ### Publication with parameters
-```bash
-/api/posts/:pub_name?post_num={}&trend_num={}
-```
-
-#### Response
 ```bash
 api/posts/towards-data-science?post_num=1&trend_num=2
 
@@ -433,6 +430,7 @@ api/posts/towards-data-science?post_num=1&trend_num=2
 
 ### Response
 ```bash
+/api/trend/programming
 {
     "writerCount": 87828,
     "postCountLatest": 497,
