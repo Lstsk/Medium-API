@@ -50,7 +50,7 @@ npm run dev
 
 #### Response
 
-```json
+```bash
 /api/posts/towards-data-science
 
 {
@@ -217,7 +217,7 @@ npm run dev
 
 ### Publication with parameters
 
-```json
+```bash
 api/posts/towards-data-science?post_num=1&trend_num=2
 
 {
@@ -291,7 +291,7 @@ api/posts/towards-data-science?post_num=1&trend_num=2
 
 ### Response
 
-```json
+```bash
 /api/user/jeff_hilles
 {
     "name": "JEFF HILLES",
@@ -406,7 +406,7 @@ api/posts/towards-data-science?post_num=1&trend_num=2
 
 #### With parameter
 
-```json
+```bash
 /api/user/jeff_hilles?post_num=2
 {
     "name": "JEFF HILLES",
@@ -447,7 +447,7 @@ api/posts/towards-data-science?post_num=1&trend_num=2
 
 ### Response
 
-```json
+```bash
 /api/trend/programming
 {
     "writerCount": 87828,
