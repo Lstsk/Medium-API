@@ -4,7 +4,12 @@
 - Node JS / Express JS
 - Javascript
 
-## Running the server
+## API LINK
+```bash
+https://medium-api-1.herokuapp.com/
+```
+
+## Running the server locally
 
 ### Clone the project
 
@@ -27,6 +32,7 @@ npm install
 ```bash
 npm run dev
 ```
+
 
 
 ## Documentation
