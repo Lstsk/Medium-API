@@ -1,5 +1,7 @@
 const express = require("express");
 const { handleError } = require("./src/error/error-handler.middleware");
+const pug = require("pug");
+
 app = express();
 
 require("dotenv").config();
