@@ -37,6 +37,13 @@ npm run dev
 
 ## Documentation
 
+### Table of contents
+
+- [Publication](#publication)
+- [User](#user)
+- [Tag](#tag)
+
+
 ### Publications
 ```bash
 /api/posts/:pub_name
@@ -45,7 +52,7 @@ npm run dev
 
 
 #### Response 
-```bash
+```json
 /api/posts/towards-data-science
 
 {
@@ -210,7 +217,7 @@ npm run dev
 }
 ```
 ### Publication with parameters
-```bash
+```json
 api/posts/towards-data-science?post_num=1&trend_num=2
 
 {
@@ -282,7 +289,7 @@ api/posts/towards-data-science?post_num=1&trend_num=2
 ```
 
 ### Response
-```bash
+```json
 /api/user/jeff_hilles
 {
     "name": "JEFF HILLES",
@@ -396,7 +403,7 @@ api/posts/towards-data-science?post_num=1&trend_num=2
 ```
 
 #### With parameter
-```bash
+```json
 /api/user/jeff_hilles?post_num=2
 {
     "name": "JEFF HILLES",
@@ -435,7 +442,7 @@ api/posts/towards-data-science?post_num=1&trend_num=2
 ```
 
 ### Response
-```bash
+```json
 /api/trend/programming
 {
     "writerCount": 87828,
