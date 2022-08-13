@@ -11,7 +11,7 @@
 https://medium-api-1.herokuapp.com/
 ```
 
-[Demo Link](https://www.youtube.com/watch?v=MCBgMz-3BQs&feature=youtu.be)
+[Demo Link](https://youtu.be/iYd3SfgwEO8)
 
 ## Running the server locally
 
