@@ -1,10 +1,12 @@
 # Medium API
 
 ## Tech used:
+
 - Node JS / Express JS
 - Javascript
 
 ## API LINK
+
 ```bash
 https://medium-api-1.herokuapp.com/
 ```
@@ -26,32 +28,28 @@ You would need to run this command every time a new dependency is installed.
 npm install
 ```
 
-
 ### Run the app:
 
 ```bash
 npm run dev
 ```
 
-
-
 ## Documentation
 
 ### Table of contents
 
-- [Publication](#publication)
+- [Publication](#publications)
 - [User](#user)
-- [Tag](#tag)
-
+- [Tag](#tags)
 
 ### Publications
+
 ```bash
 /api/posts/:pub_name
 ```
 
+#### Response
 
-
-#### Response 
 ```json
 /api/posts/towards-data-science
 
@@ -216,7 +214,9 @@ npm run dev
     ]
 }
 ```
+
 ### Publication with parameters
+
 ```json
 api/posts/towards-data-science?post_num=1&trend_num=2
 
@@ -284,11 +284,13 @@ api/posts/towards-data-science?post_num=1&trend_num=2
 ```
 
 ## User
+
 ```bash
 /api/user/:user
 ```
 
 ### Response
+
 ```json
 /api/user/jeff_hilles
 {
@@ -403,6 +405,7 @@ api/posts/towards-data-science?post_num=1&trend_num=2
 ```
 
 #### With parameter
+
 ```json
 /api/user/jeff_hilles?post_num=2
 {
@@ -437,11 +440,13 @@ api/posts/towards-data-science?post_num=1&trend_num=2
 ```
 
 ## Tags
+
 ```bash
 /api/trend/:tag_name
 ```
 
 ### Response
+
 ```json
 /api/trend/programming
 {
@@ -734,7 +739,3 @@ api/posts/towards-data-science?post_num=1&trend_num=2
     ]
 }
 ```
-
-
-
-
