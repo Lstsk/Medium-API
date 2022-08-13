@@ -36,7 +36,9 @@ npm run dev
 /api/posts/:pub_name
 ```
 
-####Response 
+
+
+#### Response 
 ```bash
 {
     "description": "Your home for data science. A Medium publication sharing concepts, ideas and codes.",
@@ -204,7 +206,7 @@ npm run dev
 /api/posts/:pub_name?post_num={}&trend_num={}
 ```
 
-####Response
+#### Response
 ```bash
 api/posts/towards-data-science?post_num=1&trend_num=2
 
@@ -271,12 +273,12 @@ api/posts/towards-data-science?post_num=1&trend_num=2
 }
 ```
 
-##User
+## User
 ```bash
 /api/user/:user
 ```
 
-###Response
+### Response
 ```bash
 /api/user/jeff_hilles
 {
@@ -390,7 +392,7 @@ api/posts/towards-data-science?post_num=1&trend_num=2
 }
 ```
 
-####With parameter
+#### With parameter
 ```bash
 /api/user/jeff_hilles?post_num=2
 {
@@ -424,12 +426,12 @@ api/posts/towards-data-science?post_num=1&trend_num=2
 }
 ```
 
-##Tags
+## Tags
 ```bash
 /api/trend/:tag_name
 ```
 
-####Response
+### Response
 ```bash
 {
     "writerCount": 87828,
