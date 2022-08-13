@@ -1,3 +1,4 @@
+const { json } = require("express");
 const { postsService } = require("./posts.service");
 
 class PostsController {
@@ -17,7 +18,7 @@ class PostsController {
         writer_num,
         trend_num
       );
-      res.send(data);
+      res.render("index", { reData: JSON.stringify(data, null, 4) });
     } catch (e) {
       next(e);
     }
@@ -25,4 +26,4 @@ class PostsController {
 }
 
 const postsController = new PostsController(postsService);
-module.exports = {postsController};
+module.exports = { postsController };

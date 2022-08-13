@@ -11,7 +11,7 @@ class TrendController {
       const tag = req.params.tag;
       const post_num = req.query.post_num;
       const response = await this.trendService.getTrend(tag, post_num);
-      res.send(await response);
+      res.render("index", { reData: JSON.stringify(response, null, 4) });
     } catch (e) {
       next(e);
     }

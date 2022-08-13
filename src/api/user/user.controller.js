@@ -12,7 +12,7 @@ class UserController {
       const post_num = req.query.post_num
       console.log(user);
       const response = await this.userService.getUser(user, post_num);
-      res.send(await response);
+      res.render("index", { reData: JSON.stringify(response, null, 4) });
     } catch (e) {
       next(e);
     }

@@ -7,6 +7,8 @@ app = express();
 require("dotenv").config();
 
 app.use(express.json());
+app.set("views", "./views");
+app.set("view engine", "pug");
 
 app.get("/", (req, res) => {
   res.send("hello");
