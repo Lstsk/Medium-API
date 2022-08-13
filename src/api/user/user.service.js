@@ -25,8 +25,8 @@ class UserService {
 
     const posts = [];
 
-    if(post_num == 0 || post_num > posts_id.length) {
-      post_num = posts_id.length
+    if (!post_num) {
+      post_num = posts_id.length;
     }
 
     for (let i = 0; i < post_num; i++) {
