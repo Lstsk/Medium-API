@@ -8,7 +8,7 @@ An easy to use API that could fetch most data from Medium with no authentication
 
 ## Authors
 
-- [@Lstsk](https://www.github.com/lstk)
+- [@Lstsk](https://www.github.com/Lstsk)
 
 
 
