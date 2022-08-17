@@ -1,11 +1,23 @@
-# Medium API
+
+# Medium
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+
+
+An easy to use API that could fetch most data from Medium with no authentication needed
+
+
+## Authors
+
+- [@Lstsk](https://www.github.com/lstk)
+
+
 
 ## Tech used:
 
 - Node JS / Express JS
 - Javascript
 
-## API LINK
+## Api Link
 
 ```bash
 https://medium-api-1.herokuapp.com/
